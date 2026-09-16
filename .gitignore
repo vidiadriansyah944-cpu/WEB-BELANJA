@@ -1,0 +1,23 @@
+# Rahasia & konfigurasi lokal
+.env
+
+# Database & data runtime
+storage/*.sqlite
+storage/*.sqlite-journal
+storage/invoices/*
+storage/receipts/*
+storage/logs/*
+storage/oauth/*
+storage/tmp/*
+!storage/.gitkeep
+!storage/invoices/.gitkeep
+!storage/receipts/.gitkeep
+!storage/logs/.gitkeep
+!storage/oauth/.gitkeep
+!storage/tmp/.gitkeep
+
+# Berkas sementara
+_*.txt
+*.log
+Thumbs.db
+.DS_Store
